@@ -1,0 +1,88 @@
+
+
+
+
+
+.form1Div{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.updateForm{
+    height: max-content;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    
+
+
+
+}
+.updateForm form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 80px 30px;
+   
+
+
+
+}
+
+
+
+/* for expensepractice page */
+body{
+    position: relative;
+}
+
+.updationDiv{
+    height: 350px;
+    width: 280px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    
+
+
+}
+.updationDiv p{
+    padding-top: 30px;
+    font-size: 30px;
+    color: white;
+ 
+    font-weight: bold;
+}
+
+.closeIcon:hover{
+   color: red;
+   height: 20px;
+   width: 20px;
+   
+   
+    
+}
+.closeIcon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+
+
+
+
+
+
+
